@@ -1,0 +1,26 @@
+# Ignore real WireGuard private keys
+*.key
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files created by editors
+*~
+*.swp
+*.bak
+
+# Ignore SSH private keys if ever stored locally
+id_rsa
+id_rsa.pub
+
+# Ignore environment files (if you use any for AWS credentials)
+.env
+
+# Ignore Python cache (optional, in case of scripts)
+__pycache__/
+*.pyc
